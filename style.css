@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: "Open Sans", serif;
+}
+
+/* default margin padding */
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+/*default margin padding */
+
+
+/* SHARED STYLES start */
+
+
+.primary_color {
+    color: rgb(253, 110, 10);
+}
+
+.dark1 {
+    color: rgb(24, 24, 24);
+}
+
+.dark2 {
+    color: rgb(71, 71, 71);
+}
+
+.dark3 {
+    color: rgb(117, 117, 117);
+}
+
+.btn_primary {
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 20px;
+    border: none;
+    font-weight: 700;
+
+}
+
+.btn_primary_cv {
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 20px;
+    border: none;
+    font-weight: 700;
+    width: 200px;
+    height: 64px;
+    margin-top: 30px;
+    margin-right: 10px;
+
+}
+
+.btn_primary_cvq {
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 20px;
+    border: none;
+    font-weight: 700;
+    width: 200px;
+    height: 64px;
+
+
+}
+
+
+/* SHARED STYLES end */
+/* nav style */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 230px;
+    margin-right: 150px;
+
+
+}
+
+
+.nav_title {
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+/* nav style */
+/* banner section */
+.banmnergreet {
+
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 45px;
+}
+
+.maryhardy {
+
+    margin-top: 5px;
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.bannerpara {
+    margin-top: 20px;
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.banner_img {
+    width: 580px;
+    margin-top: 59px;
+
+
+
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 38px 0px 230px;
+
+
+}
+
+.header {
+    background: rgb(255, 248, 243);
+    background-image: url("images/developer.png"), url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: 0 50%, bottom right;
+    height: 819px;
+     
+
+
+}
+
+/* About section */
+
+.aboutme_container {
+    width: 1140px;
+    margin: 0 auto;
+    background-color: rgb(255, 248, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.aboutmecontent {
+    width: 827px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 130px;
+
+}
+
+#aboup {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+#abouth1 {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.aboutmeinfo {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 782px;
+}
+
+.one>p {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.one>h4 {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+/* what i do */
+.Whatido {
+
+    width: 909px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+    text-align: center;
+}
+
+#whatido_p {
+    margin-top: 10px;
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+/* skillls */
+.skills {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 100px;
+    grid-area: 24px;
+}
+
+.skill1 {
+    width: 267px;
+    padding: 30px;
+    border-radius: 5px;
+
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+
+}
+
+#skillh4 {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    margin-top: 20px;
+
+}
+
+#skillp {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+
+/* resume */
+
+.Resumecontainer {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.Resumecontainer>h1 {
+    text-align: center;
+}
+
+.myedu {
+    width: 511px;
+    border-bottom: 2px solid red;
+    padding-bottom: 30px;
+
+}
+
+.ed_and_ex_container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#myeduh1 {
+    margin-top: 30px;
+    color: rgb(255, 20, 20);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+}
+
+#myeduh3 {
+    margin-top: 30px;
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+#myeduh5 {
+    margin-top: 10px;
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+#myeduhp {
+    margin-top: 20px;
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.cv {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* contact */
+
+.contact_container {
+
+
+    width: auto;
+    background-color: rgb(255, 248, 243);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 130px;
+    margin-top: 100px;
+
+
+}
+
+
+.lets_contact {
+    width: 562px;
+
+}
+
+.lets_msg_me {
+    width: 461px;
+    display: flex;
+    flex-direction: column;
+}
+
+#lets_contactp {
+    margin-top: 20px;
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+
+}
+
+.icon_container {
+
+    margin-top: 20px;
+
+}
+
+.icon_container>img {
+    margin-right: 20px;
+}
+
+input[type="text"] {
+    margin-top: 30px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    width: 461px;
+    height: 64px;
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    padding: 10px;
+}
+
+input[type="email"] {
+    margin-top: 30px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    width: 461px;
+    height: 64px;
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    padding: 10px;
+}
+
+textarea {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    padding: 10px;
+    margin-top: 30px;
+}
